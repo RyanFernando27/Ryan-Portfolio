@@ -45,7 +45,7 @@ export default function Navbar() {
             className="text-5xl font-bold hover:text-primary transition-colors"
             onClick={(e) => handleClick(e, 'hero')}
           >
-            RF
+            
           </Link>
           
           <div className="hidden lg:flex items-center gap-8">
