@@ -42,10 +42,10 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <Link 
             href="/" 
-            className="text-2xl font-bold hover:text-primary transition-colors"
+            className="text-5xl font-bold hover:text-primary transition-colors"
             onClick={(e) => handleClick(e, 'hero')}
           >
-            Portfolio
+            RF
           </Link>
           
           <div className="hidden lg:flex items-center gap-8">
