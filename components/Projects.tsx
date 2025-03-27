@@ -53,20 +53,20 @@ export default function Projects() {
                 </div>
 
                 <div className="flex gap-4">
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-sm hover:text-primary transition-colors"
-                  >
-                    <ExternalLink size={16} />
-                    Live Demo
-                  </a>
+                <a
+  href={project.liveUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 text-sm hover:text-primary hover:bg-secondary transition-colors text-secondary bg-primary px-3 py-2 rounded-md border border-primary/80"
+>
+  <ExternalLink size={16} />
+  Live Demo
+</a>
                   <a
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-sm hover:text-primary transition-colors"
+                    className="flex items-center gap-2 text-sm hover:text-primary transition-colors hover:bg-primary/10 px-3 py-2 rounded-md border border-primary/80"
                   >
                     <Github size={16} />
                     Source Code
