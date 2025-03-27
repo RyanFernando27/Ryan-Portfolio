@@ -1,46 +1,52 @@
 export const personalInfo = {
-  name: "John Doe",
+  name: "Ryan Fernando",
   role: "Full Stack Developer",
-  description: "Passionate full-stack developer with 5+ years of experience in building scalable web applications. Specialized in React, Node.js, and cloud technologies. I love turning complex problems into simple, beautiful, and intuitive solutions.",
+  description: "Passionate full-stack developer with 2+ years of experience in building scalable web applications. Specialized in React, Node.js, and cloud technologies. I love turning complex problems into simple, beautiful, and intuitive solutions.",
   resumeUrl: "/resume.pdf",
-  githubUrl: "https://github.com/johndoe",
-  linkedinUrl: "https://linkedin.com/in/johndoe",
-  email: "contact@johndoe.dev"
+  githubUrl: "https://github.com/RyanFernando27",
+  linkedinUrl: "https://www.linkedin.com/in/shalinduryan/",
+  email: "shalindu27@gmail.com"
 };
 
 export const techStack = [
-  { name: "React", icon: "/tech/react.svg" },
-  { name: "Next.js", icon: "/tech/nextjs.svg" },
-  { name: "TypeScript", icon: "/tech/typescript.svg" },
-  { name: "Node.js", icon: "/tech/nodejs.svg" },
-  { name: "Tailwind CSS", icon: "/tech/tailwind.svg" },
-  { name: "PostgreSQL", icon: "/tech/postgresql.svg" }
+  { name: "React", icon: "/svgs/react.svg" },
+  { name: "Next.js", icon: "/svgs/nextjs.svg" },
+  { name: "TypeScript", icon: "/svgs/typescript-icon.svg" },
+  { name: "Node.js", icon: "/svgs/node-js.svg" },
+  { name: "Tailwind CSS", icon: "/svgs/tailwind-css.svg" },
+  { name: "MongoDb", icon: "/svgs/mongodb-original.svg" },
+  { name: "Docker", icon: "/svgs/Docker.svg" },
+  { name: "Github", icon: "/svgs/github.svg" },
+  { name: "CSS", icon: "/svgs/file-type-css.svg" },
+  { name: "HTML", icon: "/svgs/file-type-html.svg" },
+  { name: "Framer", icon: "/svgs/framer.svg" },
+  { name: "MySQL", icon: "/svgs/MySQL.svg" },
 ];
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "9Months Pregnancy Support App",
     description: "A full-featured e-commerce platform built with Next.js and Stripe",
-    image: "/projects/ecommerce.jpg",
-    techUsed: ["Next.js", "TypeScript", "Stripe", "Tailwind CSS"],
+    image: "/projects/",
+    techUsed: ["Flutter", "Node.js", "MongoDB", "Firebase"],
     liveUrl: "https://ecommerce.demo.com",
     githubUrl: "https://github.com/johndoe/ecommerce"
   },
   {
-    title: "Task Management App",
+    title: "MovieHUB",
     description: "Real-time task management application with team collaboration features",
-    image: "/projects/taskapp.jpg",
-    techUsed: ["React", "Node.js", "Socket.io", "MongoDB"],
-    liveUrl: "https://taskapp.demo.com",
-    githubUrl: "https://github.com/johndoe/taskapp"
+    image: "/projects/movie.png",
+    techUsed: ["React", "Tailwind CSS", "Vercel"],
+    liveUrl: "https://movie-hub-three-ecru.vercel.app/",
+    githubUrl: "https://github.com/RyanFernando27/MovieHub"
   },
   {
-    title: "AI Image Generator",
+    title: "Property State Management Application",
     description: "An AI-powered image generation tool using DALL-E API",
     image: "/projects/aigen.jpg",
-    techUsed: ["Next.js", "OpenAI API", "Tailwind CSS"],
-    liveUrl: "https://aigen.demo.com",
-    githubUrl: "https://github.com/johndoe/aigen"
+    techUsed: ["React", "Bootstrap", "BUN"],
+    liveUrl: "https://estate-agent-swart.vercel.app/",
+    githubUrl: "https://github.com/RyanFernando27/Estate-Agent-Front-End"
   }
 ];
 
