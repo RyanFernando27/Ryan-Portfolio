@@ -34,7 +34,7 @@ export default function LoadingScreen() {
       transition={{ duration: 0.5 }}
     >
       <motion.h1
-        className="text-4xl font-bold mb-8"
+        className="text-8xl font-bold mb-8"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2 }}
