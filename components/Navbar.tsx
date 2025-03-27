@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ThemeToggle } from './ThemeToggle';
 import { motion } from 'framer-motion';
 import MobileNav from './MobileNav';
+import { Image } from 'next/image';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -45,6 +46,7 @@ export default function Navbar() {
             className="text-5xl font-bold hover:text-primary transition-colors"
             onClick={(e) => handleClick(e, 'hero')}
           >
+            RF
             
           </Link>
           
