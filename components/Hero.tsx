@@ -22,12 +22,12 @@ export default function Hero() {
       id="hero"
       className="min-h-screen flex items-center justify-center relative"
       style={{
-        backgroundImage: 'url(/hero-bg.jpg)',
+        backgroundImage: 'url(/hero-bg.jpeg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
-      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
+      <div className="absolute inset-0 bg-background/60 " />
       
       <motion.div 
         className="container mx-auto px-4 text-center relative z-10"
@@ -36,7 +36,7 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
       >
         <motion.h1 
-          className="text-4xl md:text-6xl font-bold mb-4 md:mb-6"
+          className="text-8xl md:text-6xl font-bold mb-4 md:mb-6"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
@@ -75,7 +75,7 @@ export default function Hero() {
             className="flex items-center justify-center gap-2 px-6 py-3 bg-[#0077B5] text-white rounded-lg hover:bg-[#0077B5]/90 transition-colors"
           >
             <Linkedin size={20} />
-            LinkedIn
+       
           </a>
           
           <a 
@@ -85,7 +85,7 @@ export default function Hero() {
             className="flex items-center justify-center gap-2 px-6 py-3 bg-[#333] text-white rounded-lg hover:bg-[#333]/90 transition-colors"
           >
             <Github size={20} />
-            GitHub
+          
           </a>
         </motion.div>
 
