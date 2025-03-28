@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { ThemeToggle } from './ThemeToggle';
 import { motion } from 'framer-motion';
 import MobileNav from './MobileNav';
-import { Image } from 'next/image';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
