@@ -51,8 +51,8 @@ export const projects = [
 ];
 
 export const socialLinks = {
-  github: "https://github.com/johndoe",
-  linkedin: "https://linkedin.com/in/johndoe",
-  twitter: "https://twitter.com/johndoe",
-  instagram: "https://instagram.com/johndoe"
+  github: "https://github.com/RyanFernando27",
+  linkedin: "https://linkedin.com/in/shalinduryan",
+  twitter: "",
+  instagram: ""
 };

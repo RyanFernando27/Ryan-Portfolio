@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="space-y-4">
-                <h3 className="text-2xl font-bold">SR</h3>
+                <h1 className="text-5xl font-bold">RF</h1>
                 <p className="text-muted-foreground">
                   Building digital experiences with passion and precision.
                 </p>
@@ -40,7 +40,7 @@ export default function Footer() {
                 <h3 className="text-lg font-semibold">Connect</h3>
                 <div className="flex space-x-4">
                   <a
-                    href={personalInfo.github}
+                    href={personalInfo.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
@@ -48,7 +48,7 @@ export default function Footer() {
                     <Github className="w-6 h-6" />
                   </a>
                   <a
-                    href={personalInfo.linkedin}
+                    href={personalInfo.linkedinUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
