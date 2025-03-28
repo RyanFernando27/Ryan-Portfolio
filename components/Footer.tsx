@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 
-import { personalInfo } from '@/lib/consts';
+import { socialLinks} from '@/lib/consts';
 import { Github, Linkedin, Instagram, Mail, ExternalLink, Heart } from "lucide-react"
 
 export default function Footer() {
@@ -40,7 +40,7 @@ export default function Footer() {
                 <h3 className="text-lg font-semibold">Connect</h3>
                 <div className="flex space-x-4">
                   <a
-                    href={personalInfo.githubUrl}
+                    href={socialLinks.github}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
@@ -48,7 +48,7 @@ export default function Footer() {
                     <Github className="w-6 h-6" />
                   </a>
                   <a
-                    href={personalInfo.linkedinUrl}
+                    href={socialLinks.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
@@ -56,7 +56,7 @@ export default function Footer() {
                     <Linkedin className="w-6 h-6" />
                   </a>
                   <a
-                    href={personalInfo.instagram}
+                    href={socialLinks.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
