@@ -27,7 +27,7 @@ export const projects = [
   {
     title: "9Months Pregnancy Support App",
     description: "A full-featured e-commerce platform built with Next.js and Stripe",
-    image: "/projects/",
+    image: "/projects/9months.png",
     techUsed: ["Flutter", "Node.js", "MongoDB", "Firebase"],
     liveUrl: "https://ecommerce.demo.com",
     githubUrl: "https://github.com/johndoe/ecommerce"
@@ -43,7 +43,7 @@ export const projects = [
   {
     title: "Property State Management Application",
     description: "An AI-powered image generation tool using DALL-E API",
-    image: "/projects/aigen.jpg",
+    image: "/projects/estateAgent.png",
     techUsed: ["React", "Bootstrap", "BUN"],
     liveUrl: "https://estate-agent-swart.vercel.app/",
     githubUrl: "https://github.com/RyanFernando27/Estate-Agent-Front-End"

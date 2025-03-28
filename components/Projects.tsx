@@ -22,18 +22,19 @@ export default function Projects() {
           {projects.map((project, index) => (
             <motion.div
               key={project.title}
-              className="bg-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+              className="bg-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl  hover:bg-slate-100 dark:hover:bg-slate-900 transition-all duration-300"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
             >
-              <div className="relative h-48 sm:h-40 md:h-48">
+              <div className="relative h-48 sm:h-40 md:h-48 bg-white">
                 <Image
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover"
+                  className="object-contain scale-120"
+                  
                 />
               </div>
 
